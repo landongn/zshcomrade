@@ -1,4 +1,4 @@
-![Comrade Screenshot](/sample.jpg "Comrade ZSH theme")
+![Comrade Screenshot](https://raw.github.com/landongn/zshcomrade/master/sample.png "Comrade ZSH theme")
 
 copy .zsh-theme to ```~/.oh-my-zsh/themes```
 
