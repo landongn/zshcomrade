@@ -1,7 +1,7 @@
-# FreeAgent puts the powerline style in zsh !
+#Based on "POWERLINE"
 
-  COMRADE_RIGHT_B=%D{%H:%M:%S}
-  COMRADE_RIGHT_A=%D{%Y-%m-%d}
+COMRADE_RIGHT_B=%D{%H:%M:%S}
+COMRADE_RIGHT_A=%D{%Y-%m-%d}
 
 COMRADE_COLOR_BG_GRAY=%K{240}
 COMRADE_COLOR_BG_LIGHT_GRAY=%K{240}
