@@ -28,6 +28,6 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%F{082]═%f"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%F{190]✭%f"
 
 PROMPT="
-%K{black}%F{red} %B"$'\u262D'"%b  %n %S%k%f%F{black}%K{red}"$'\u2b80'"%k%f%F{white}%K{red} %~ %k%f%F{black}%K{red}"$'\u2b82'"%s %f%F{red}%K{black}"$'$(git_prompt_info)'"%f%k%{$reset_color%} "
+%K{black}%F{red} "$'\u262D'"  %n %k%f%F{black}%K{red}"$'\u2b80'"%k%f%F{white}%K{red} %~ %k%f%F{black}%K{red}"$'\u2b82'"%f%F{red}%K{black}"$'$(git_prompt_info)'"%f%k%{$reset_color%} "
 
 RPROMPT=$COMRADE_COLOR_FG_WHITE$'\u2b82'"%f$COMRADE_COLOR_BG_WHITE $COMRADE_COLOR_FG_GRAY%@ "$'\u2b82'"%f%k$COMRADE_COLOR_BG_GRAY$COMRADE_COLOR_FG_WHITE $COMRADE_RIGHT_A %f%k"
